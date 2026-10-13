@@ -7,7 +7,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://workplace-management-backend.vercel.app/',
   withCredentials: true,
   headers: { 'Content-Type': 'application/json' },
   timeout: 15000,
